@@ -147,4 +147,21 @@ header {
   color: var(--accent-color);
 }
 
+.fa-bell {
+  margin-right: 5px;
+}
+
+.fa-bell,
+.fa-user-group,
+.fa-gear {
+  justify-self: end;
+  transition: all 200ms ease-in-out;
+}
+
+.fa-bell:hover,
+.fa-user-group:hover,
+.fa-gear:hover {
+  color: var(--accent-color);
+}
+
 /* Header Styling End */
