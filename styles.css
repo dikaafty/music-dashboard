@@ -201,6 +201,12 @@ aside {
   place-content: center;
 }
 
+.top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 /* Sidebar Styling End */
 
 /* Media Queries Start */
