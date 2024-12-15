@@ -263,6 +263,10 @@ aside {
   border-radius: 5px;
 }
 
+.artist-one img {
+  border-radius: 50%;
+}
+
 /* Sidebar Styling End */
 
 /* Media Queries Start */
