@@ -180,3 +180,26 @@ header {
 }
 
 /* Header Styling End */
+
+/* Media Queries Start */
+
+@media (max-width: 715px) {
+  .relative-wrapper {
+    width: 70px;
+  }
+
+  #search {
+    width: 70px;
+  }
+
+  #search::placeholder {
+    color: transparent;
+  }
+
+  .fa-magnifying-glass {
+    top: 22px;
+    right: 12px;
+  }
+}
+
+/* Media Queries End */
