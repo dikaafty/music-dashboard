@@ -96,4 +96,8 @@ header {
   align-items: center;
 }
 
+.brand-logo {
+  width: 140px;
+}
+
 /* Header Styling End */
