@@ -109,4 +109,43 @@ header {
   color: var(--accent-color);
 }
 
+.relative-wrapper {
+  width: clamp(50px, 31vw + 1.065rem, 450px);
+  position: relative;
+}
+
+#search {
+  box-sizing: content-box;
+  width: clamp(50px, 30vw + 0.625rem, 450px);
+  height: 45px;
+  background-color: var(--secondary-color);
+  color: var(--text-color);
+  font-size: 1rem;
+  font-weight: 800;
+  border: none;
+  border-radius: 50px;
+  padding-left: 20px;
+  transition: all 200ms ease-in-out;
+}
+
+#search:hover {
+  background-color: var(--tertiary-color);
+}
+
+#search:focus {
+  outline: 2px solid var(--text-color);
+}
+
+.fa-magnifying-glass {
+  position: absolute;
+  top: 22px;
+  right: 10px;
+  transition: all 200ms ease-in-out;
+}
+
+.fa-magnifying-glass:hover {
+  color: var(--accent-color);
+  transition: all 200ms ease-in-out;
+}
+
 /* Header Styling End */
