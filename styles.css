@@ -267,6 +267,51 @@ aside {
   border-radius: 50%;
 }
 
+.artist-one,
+.playlist-one,
+.playlist-two,
+.playlist-three,
+.playlist-four,
+.playlist-five,
+.playlist-six {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 5px;
+  border-radius: 10px;
+  margin: 5px 0;
+}
+
+.artist-one:hover,
+.playlist-one:hover,
+.playlist-two:hover,
+.playlist-three:hover,
+.playlist-four:hover,
+.playlist-five:hover,
+.playlist-six:hover {
+  background-color: var(--tertiary-color);
+}
+
+.artist-one .info p:first-of-type,
+.playlist-one .info p:first-of-type,
+.playlist-two .info p:first-of-type,
+.playlist-three .info p:first-of-type,
+.playlist-four .info p:first-of-type,
+.playlist-five .info p:first-of-type,
+.playlist-six .info p:first-of-type {
+  font-family: "spotify_mix_bold";
+}
+
+.artist-one .info p:last-of-type,
+.playlist-one .info p:last-of-type,
+.playlist-two .info p:last-of-type,
+.playlist-three .info p:last-of-type,
+.playlist-four .info p:last-of-type,
+.playlist-five .info p:last-of-type,
+.playlist-six .info p:last-of-type {
+  font-size: 0.7rem;
+}
+
 /* Sidebar Styling End */
 
 /* Media Queries Start */
