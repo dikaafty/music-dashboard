@@ -145,7 +145,6 @@ header {
 
 .fa-magnifying-glass:hover {
   color: var(--accent-color);
-  transition: all 200ms ease-in-out;
 }
 
 /* Header Styling End */
