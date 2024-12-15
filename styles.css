@@ -193,7 +193,8 @@ aside {
   height: 635px;
   background-color: var(--secondary-color);
   padding: 5px 0;
-  border-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
   grid-area: 2 / 1 / 3 / 2;
 
   display: grid;
