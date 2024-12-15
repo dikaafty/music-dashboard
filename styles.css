@@ -67,3 +67,7 @@ body {
   background-color: var(--primary-color);
   color: var(--text-color);
 }
+
+h1 {
+  font-family: "spotify_mix_bold";
+}
