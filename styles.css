@@ -100,4 +100,13 @@ header {
   width: 140px;
 }
 
+.fa-house {
+  justify-self: center;
+  transition: all 200ms ease-in-out;
+}
+
+.fa-house:hover {
+  color: var(--accent-color);
+}
+
 /* Header Styling End */
