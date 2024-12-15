@@ -207,6 +207,31 @@ aside {
   align-items: center;
 }
 
+.top .library,
+.top div:last-of-type {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.top .library i,
+.top .library p,
+.top .fa-plus,
+.top .fa-arrow-right {
+  transition: all 200ms ease-in-out;
+}
+
+.top .library:hover i,
+.top .library:hover p,
+.top .fa-plus:hover,
+.top .fa-arrow-right:hover {
+  color: var(--accent-color);
+}
+
+.top .library p {
+  font-family: "spotify_mix_bold";
+}
+
 /* Sidebar Styling End */
 
 /* Media Queries Start */
