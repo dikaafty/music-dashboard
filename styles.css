@@ -232,6 +232,26 @@ aside {
   font-family: "spotify_mix_bold";
 }
 
+.choose-category {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.choose-category div {
+  font-family: "spotify_mix_bold";
+  font-size: 0.8rem;
+  background-color: var(--tertiary-color);
+  width: 70px;
+  height: 25px;
+  border-radius: 50px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 /* Sidebar Styling End */
 
 /* Media Queries Start */
