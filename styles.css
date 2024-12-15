@@ -82,3 +82,18 @@ p {
   grid-template-rows: 100px repeat(2, 1fr);
   gap: 10px;
 }
+
+/* Header Styling Start */
+
+header {
+  height: 100px;
+  padding: 0 10px;
+  grid-area: 1 / 1 / 2 / -1;
+
+  display: grid;
+  grid-template-columns: minmax(150px, 1fr) minmax(30px, 50px) minmax(50px, 500px) repeat(3, 35px) minmax(150px, 1fr);
+  align-content: center;
+  align-items: center;
+}
+
+/* Header Styling End */
