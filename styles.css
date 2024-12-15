@@ -217,4 +217,10 @@ header {
   }
 }
 
+@media (max-width: 560px) {
+  .fa-gear {
+    visibility: hidden;
+  }
+}
+
 /* Media Queries End */
