@@ -210,7 +210,7 @@ header {
   }
 }
 
-@media (max-width: 570px) {
+@media (max-width: 630px) {
   .fa-bell,
   .fa-user-group {
     visibility: hidden;
