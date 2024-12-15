@@ -197,7 +197,7 @@ header {
   }
 
   #search:focus + .fa-magnifying-glass {
-    color: transparent;
+    visibility: hidden;
   }
 
   .fa-magnifying-glass {
