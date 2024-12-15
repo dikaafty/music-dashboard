@@ -164,4 +164,19 @@ header {
   color: var(--accent-color);
 }
 
+.profile-picture {
+  justify-self: end;
+
+  width: 80px;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  border: 10px solid var(--secondary-color);
+  margin-right: 10px;
+  transition: all 200ms ease-in-out;
+}
+
+.profile-picture:hover {
+  transform: scale(1.1);
+}
+
 /* Header Styling End */
