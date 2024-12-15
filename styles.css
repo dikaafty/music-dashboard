@@ -257,6 +257,12 @@ aside {
   grid-template-rows: repeat(7, 70px);
 }
 
+.playlist-artist-section img {
+  width: 55px;
+  aspect-ratio: 1;
+  border-radius: 5px;
+}
+
 /* Sidebar Styling End */
 
 /* Media Queries Start */
