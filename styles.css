@@ -202,4 +202,11 @@ header {
   }
 }
 
+@media (max-width: 570px) {
+  .fa-bell,
+  .fa-user-group {
+    color: transparent;
+  }
+}
+
 /* Media Queries End */
