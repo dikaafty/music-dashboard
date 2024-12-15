@@ -189,8 +189,6 @@ header {
 
 /* Sidebar Styling Start */
 
-/* Sidebar Styling End */
-
 aside {
   background-color: var(--secondary-color);
   padding: 15px 0;
@@ -202,6 +200,8 @@ aside {
   grid-template-rows: repeat(2, 50px) 1fr;
   place-content: center;
 }
+
+/* Sidebar Styling End */
 
 /* Media Queries Start */
 
