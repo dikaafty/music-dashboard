@@ -62,3 +62,8 @@ img {
   --accent-color: #1e90ff;
   --text-color: #eaeaea;
 }
+
+body {
+  background-color: var(--primary-color);
+  color: var(--text-color);
+}
