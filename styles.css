@@ -190,6 +190,7 @@ header {
 /* Sidebar Styling Start */
 
 aside {
+  height: 635px;
   background-color: var(--secondary-color);
   padding: 5px 0;
   border-radius: 10px;
