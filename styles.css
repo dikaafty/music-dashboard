@@ -241,17 +241,26 @@ aside {
   margin-bottom: 10px;
 }
 
-.choose-category div {
+.choose-category button {
   font-family: "spotify_mix_bold";
   font-size: 0.8rem;
   background-color: var(--tertiary-color);
+  color: var(--text-color);
   width: 70px;
   height: 25px;
+  border: none;
   border-radius: 50px;
+  cursor: pointer;
+  transition: all 200ms ease-in-out;
 
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.choose-category button:hover {
+  background-color: #5f5d5d;
+  transform: scale(1.05);
 }
 
 .playlist-artist-section {
