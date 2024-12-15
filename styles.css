@@ -187,6 +187,22 @@ header {
 
 /* Header Styling End */
 
+/* Sidebar Styling Start */
+
+/* Sidebar Styling End */
+
+aside {
+  background-color: var(--secondary-color);
+  padding: 15px 0;
+  border-radius: 10px;
+  grid-area: 2 / 1 / 3 / 2;
+
+  display: grid;
+  grid-template-columns: 300px;
+  grid-template-rows: repeat(2, 50px) 1fr;
+  place-content: center;
+}
+
 /* Media Queries Start */
 
 @media (max-width: 715px) {
