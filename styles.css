@@ -384,10 +384,14 @@ main {
 .top-artist-two,
 .top-artist-three,
 .top-artist-four,
+.top-artist-five,
+.top-artist-six,
 .top-song-one,
 .top-song-two,
 .top-song-three,
-.top-song-four {
+.top-song-four,
+.top-song-five,
+.top-song-six {
   display: flex;
   flex-direction: column;
   justify-content: center;
