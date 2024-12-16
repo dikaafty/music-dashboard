@@ -412,7 +412,8 @@ main {
 
 .artists-container .more-options,
 .songs-container .more-options {
-  padding-bottom: 10px;
+  box-sizing: content-box;
+  padding-bottom: 15px;
 
   display: grid;
   grid-auto-flow: column;
