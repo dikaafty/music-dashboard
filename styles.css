@@ -396,6 +396,10 @@ main {
 
 .artists-container .more-options {
   padding-bottom: 10px;
+
+  display: grid;
+  grid-auto-flow: column;
+  column-gap: 10px;
 }
 
 /* Main Styling End */
