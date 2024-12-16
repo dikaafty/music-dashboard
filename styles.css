@@ -456,6 +456,52 @@ main {
   row-gap: 10px;
 }
 
+.recommended {
+  grid-row: 1 / 2;
+  background-color: var(--secondary-color);
+  border-radius: 10px;
+
+  display: grid;
+  grid-template-rows: 50px repeat(3, 75px);
+}
+
+.recommended .section-title {
+  font-size: 1.1rem;
+  margin: 10px 0 10px 10px;
+  grid-row: 1 / 2;
+}
+
+.recommended img {
+  width: 55px;
+  aspect-ratio: 1;
+  border-radius: 5px;
+}
+
+.recommended-one,
+.recommended-two,
+.recommended-three {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 10px;
+  margin-left: 10px;
+  border-radius: 10px;
+}
+
+.recommended-one:hover,
+.recommended-two:hover,
+.recommended-three:hover {
+  background-color: var(--tertiary-color);
+}
+
+.recommended-song-title {
+  font-family: "spotify_mix_bold";
+}
+
+.recommended-song-artist {
+  font-size: 0.8rem;
+}
+
 /* Other Section Styling End */
 
 /* Media Queries Start */
