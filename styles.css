@@ -362,13 +362,15 @@ main {
   grid-template-rows: 50px minmax(200px, 1fr);
 }
 
-.top-artists .section-title {
+.top-artists .section-title,
+.top-songs .section-title {
   font-size: 1.5rem;
   margin: 10px 0 10px 10px;
   grid-row: 1 / 2;
 }
 
-.artists-container {
+.artists-container,
+.songs-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
   grid-template-rows: repeat(auto-fit, minmax(0, 1fr));
@@ -379,7 +381,11 @@ main {
 .top-artist-one,
 .top-artist-two,
 .top-artist-three,
-.top-artist-four {
+.top-artist-four,
+.top-song-one,
+.top-song-two,
+.top-song-three,
+.top-song-four {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -387,7 +393,8 @@ main {
   gap: 10px;
 }
 
-.artists-container img {
+.artists-container img,
+.songs-container img {
   width: 90%;
   aspect-ratio: 1;
   border-radius: 5px;
@@ -395,12 +402,14 @@ main {
   transition: all 200ms ease-in-out;
 }
 
-.artists-container img:hover {
+.artists-container img:hover,
+.songs-container img:hover {
   scale: 1.1;
   filter: grayscale(0);
 }
 
-.artists-container .more-options {
+.artists-container .more-options,
+.songs-container .more-options {
   padding-bottom: 10px;
 
   display: grid;
@@ -408,11 +417,13 @@ main {
   column-gap: 10px;
 }
 
-.artists-container .more-options i {
+.artists-container .more-options i,
+.songs-container .more-options i {
   transition: all 200ms ease-in-out;
 }
 
-.artists-container .more-options i:hover {
+.artists-container .more-options i:hover,
+.songs-container .more-options i:hover {
   color: var(--accent-color);
 }
 
