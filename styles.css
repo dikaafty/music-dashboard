@@ -90,7 +90,7 @@ p {
 
   display: grid;
   grid-template-columns: 325px minmax(300px, 2fr) minmax(170px, 1fr);
-  grid-template-rows: 100px repeat(2, 1fr);
+  grid-template-rows: 100px 1fr;
   gap: 15px;
 }
 
