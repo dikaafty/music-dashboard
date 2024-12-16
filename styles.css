@@ -330,6 +330,7 @@ aside {
 main {
   grid-area: 2 / 2 / 3 / 3;
   margin-top: 10px;
+  height: fit-content;
 
   display: grid;
   grid-template-rows: 60px repeat(2, auto);
