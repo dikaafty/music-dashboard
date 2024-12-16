@@ -332,7 +332,8 @@ main {
   margin-top: 10px;
 
   display: grid;
-  grid-template-rows: 60px auto auto;
+  grid-template-rows: 60px repeat(2, auto);
+  place-content: start;
   row-gap: 10px;
 }
 
