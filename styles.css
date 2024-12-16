@@ -333,7 +333,7 @@ main {
 
   display: grid;
   grid-template-rows: 60px 1fr;
-  gap: 20px 10px;
+  row-gap: 10px;
 }
 
 .greetings {
