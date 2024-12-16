@@ -339,7 +339,7 @@ main {
 .greetings {
   grid-area: 1 / 1 / 2 / 2;
   font-family: "spotify_mix_extrabold";
-  font-size: 2rem;
+  font-size: 2.5cqw;
 }
 
 .top-artists {
