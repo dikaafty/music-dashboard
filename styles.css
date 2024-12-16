@@ -521,7 +521,7 @@ main {
   }
 
   #search::placeholder {
-    color: transparent;
+    visibility: hidden;
   }
 
   #search:focus + .fa-magnifying-glass {
