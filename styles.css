@@ -399,6 +399,13 @@ main {
   gap: 10px;
 }
 
+.top-artist-five,
+.top-artist-six,
+.top-song-five,
+.top-song-six {
+  display: none;
+}
+
 .artists-container img,
 .songs-container img {
   width: 90%;
