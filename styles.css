@@ -447,7 +447,6 @@ main {
 
 .other-section {
   grid-area: 2 / 3 / 3 / 4;
-  background-color: var(--secondary-color);
   height: fit-content;
 
   display: grid;
