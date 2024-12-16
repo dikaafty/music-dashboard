@@ -402,6 +402,14 @@ main {
   column-gap: 10px;
 }
 
+.artists-container .more-options i {
+  transition: all 200ms ease-in-out;
+}
+
+.artists-container .more-options i:hover {
+  color: var(--accent-color);
+}
+
 /* Main Styling End */
 
 /* Media Queries Start */
