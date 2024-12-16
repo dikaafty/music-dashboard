@@ -597,6 +597,10 @@ main {
     font-size: 3.6cqw;
   }
 
+  .recommended-song-artist {
+    font-size: 1.2cqw;
+  }
+
 }
 
 @media (max-width: 540px) {
