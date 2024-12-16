@@ -87,6 +87,7 @@ p {
 
 .container {
   max-width: 1920px;
+  padding-bottom: 20px;
 
   display: grid;
   grid-template-columns: 325px minmax(300px, 2fr) minmax(170px, 1fr);
