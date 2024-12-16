@@ -489,6 +489,20 @@ main {
     display: none;
   }
 
+  .greetings {
+    font-size: 3.6cqw;
+  }
+
+}
+
+@media (max-width: 540px) {
+  main {
+    row-gap: 0;
+  }
+
+  .greetings {
+    line-height: 60px;
+  }
 }
 
 /* Media Queries End */
