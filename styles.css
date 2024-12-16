@@ -548,4 +548,13 @@ main {
   }
 }
 
+@media (max-width: 1285px) {
+  .top-artist-five,
+  .top-artist-six,
+  .top-song-five,
+  .top-song-six {
+    display: flex;
+  }
+}
+
 /* Media Queries End */
