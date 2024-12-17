@@ -681,4 +681,10 @@ main {
   }
 }
 
+@media (max-width: 701px) {
+  .other-projects {
+    gap: 10px;
+  }
+}
+
 /* Media Queries End */
