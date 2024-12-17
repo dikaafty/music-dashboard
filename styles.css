@@ -366,7 +366,7 @@ main {
   margin-top: 10px;
 
   display: grid;
-  grid-template-rows: 50px minmax(200px, 1fr);
+  grid-template-rows: 60px minmax(200px, 1fr);
 }
 
 .top-artists .section-title,
