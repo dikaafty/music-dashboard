@@ -519,6 +519,13 @@ main {
   grid-template-rows: 50px repeat(3, 200px);
 }
 
+.other-projects .section-title {
+  font-size: 1.1rem;
+  margin: 10px 0 0 20px;
+  grid-row: 1 / 2;
+  text-align: center;
+}
+
 /* Other Section Styling End */
 
 /* Media Queries Start */
