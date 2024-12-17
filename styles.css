@@ -517,7 +517,7 @@ main {
   padding: 0 10px;
 
   display: grid;
-  grid-template-rows: 70px repeat(3, 200px);
+  grid-template-rows: 70px repeat(3, auto);
 }
 
 .other-projects .section-title {
