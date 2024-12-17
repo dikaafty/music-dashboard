@@ -540,6 +540,10 @@ main {
   gap: 10px;
 }
 
+.other-projects a:hover {
+  background-color: var(--tertiary-color);
+}
+
 .other-projects img {
   width: 80%;
   border-radius: 5px;
