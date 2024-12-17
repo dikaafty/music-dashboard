@@ -456,8 +456,7 @@ main {
 
   display: grid;
   grid-template-rows: repeat(2, auto);
-  
-  row-gap: 10px;
+  row-gap: 20px;
 }
 
 .recommended {
