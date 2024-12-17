@@ -527,6 +527,12 @@ main {
   text-align: center;
 }
 
+.project-one,
+.project-two,
+.project-three {
+  padding: 0 10px;
+}
+
 .other-projects a {
   color: var(--text-color);
   padding: 15px 0;
