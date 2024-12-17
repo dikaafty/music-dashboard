@@ -548,6 +548,10 @@ main {
   gap: 10px;
 }
 
+.other-projects p {
+  font-family: "spotify_mix_bold";
+}
+
 .other-projects a:hover {
   background-color: var(--tertiary-color);
 }
