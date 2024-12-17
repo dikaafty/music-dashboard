@@ -340,7 +340,7 @@ main {
 
   display: grid;
   grid-template-rows: 60px repeat(2, auto);
-  place-content: start;
+  place-content: center;
   row-gap: 10px;
 }
 
