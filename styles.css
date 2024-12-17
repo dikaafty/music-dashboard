@@ -516,12 +516,12 @@ main {
   border-bottom-left-radius: 10px;
 
   display: grid;
-  grid-template-rows: 50px repeat(3, 200px);
+  grid-template-rows: 70px repeat(3, 200px);
 }
 
 .other-projects .section-title {
   font-size: 1.1rem;
-  margin: 10px 0 0 20px;
+  margin: 10px 0 0 10px;
   grid-row: 1 / 2;
   text-align: center;
 }
