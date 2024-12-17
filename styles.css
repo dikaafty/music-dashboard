@@ -509,6 +509,16 @@ main {
   font-size: 1cqw;
 }
 
+.other-projects {
+  grid-row: 2 / 3;
+  background-color: var(--secondary-color);
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+
+  display: grid;
+  grid-template-rows: 50px repeat(3, 200px);
+}
+
 /* Other Section Styling End */
 
 /* Media Queries Start */
