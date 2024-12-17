@@ -526,6 +526,10 @@ main {
   text-align: center;
 }
 
+.other-projects img {
+  width: 80%;
+}
+
 /* Other Section Styling End */
 
 /* Media Queries Start */
