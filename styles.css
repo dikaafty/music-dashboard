@@ -528,6 +528,7 @@ main {
 
 .other-projects img {
   width: 80%;
+  border-radius: 5px;
 }
 
 /* Other Section Styling End */
