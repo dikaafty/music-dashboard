@@ -588,6 +588,7 @@ main {
   display: grid;
   grid-template-columns: 200px 1fr 200px;
   justify-content: space-around;
+  align-content: center;
 }
 
 .now-playing img {
