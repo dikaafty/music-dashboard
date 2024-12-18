@@ -574,9 +574,9 @@ main {
   bottom: 0;
   left: 0;
 
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  display: grid;
+  grid-template-columns: 200px 1fr 200px;
+  justify-content: space-around;
 }
 
 .now-playing img {
