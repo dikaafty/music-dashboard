@@ -584,6 +584,20 @@ main {
   border-radius: 5px;
 }
 
+.playing-song {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.playing-song-info .playing-song-title {
+  font-family: "spotify_mix_bold";
+}
+
+.playing-song-info .playing-song-artist {
+  font-size: 0.8rem;
+}
+
 /* Now Playing Styling End */
 
 /* Media Queries Start */
