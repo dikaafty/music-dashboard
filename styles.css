@@ -566,7 +566,7 @@ main {
 /* Now Playing Styling Start */
 
 .now-playing {
-  width: 100%;
+  width: 1300px;
   height: 90px;
   background-color: var(--primary-color);
   padding: 0 20px;
