@@ -689,6 +689,11 @@ main {
 .author-container img {
   width: 100%;
   height: 100px;
+  transition: all 200ms ease-in-out;
+}
+
+.author-container img:hover {
+   transform: scale(1.1);
 }
 
 /* Now Playing Styling End */
