@@ -569,13 +569,19 @@ main {
   width: 100%;
   background-color: var(--primary-color);
   padding: 0 20px;
-  position: absolute;
+  position: fixed;
   bottom: 0;
   left: 0;
 
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.now-playing img {
+  width: 65px;
+  aspect-ratio: 1;
+  border-radius: 5px;
 }
 
 /* Now Playing Styling End */
