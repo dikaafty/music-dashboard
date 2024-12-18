@@ -800,6 +800,14 @@ main {
     font-size: 1.2cqw;
   }
 
+  .playing-song-control {
+    justify-content: center;
+  }
+
+  .song-progress {
+    display: none;
+  }
+
 }
 
 @media (max-width: 540px) {
