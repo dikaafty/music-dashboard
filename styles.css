@@ -634,7 +634,7 @@ main {
 }
 
 .bar {
-  width: 35vw;
+  width: 455px;
   height: 3px;
   background-color: var(--text-color);
   position: relative;
