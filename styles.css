@@ -681,6 +681,10 @@ main {
   box-shadow: inset 0 0 3px var(--accent-color);
 }
 
+.author-container {
+  margin-right: 20px;
+}
+
 .author-container img {
   width: 100%;
   height: 100px;
