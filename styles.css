@@ -92,7 +92,7 @@ p {
 
   display: grid;
   grid-template-columns: 325px minmax(300px, 2fr) minmax(170px, 1fr);
-  grid-template-rows: 100px 1fr;
+  grid-template-rows: 100px 1fr ;
   place-content: center;
   gap: 15px;
 }
@@ -566,13 +566,16 @@ main {
 /* Now Playing Styling Start */
 
 .now-playing {
-  width: 1300px;
+  grid-column: span 2;
+  width: 100%;
+  max-width: 1300px;
   height: 90px;
   background-color: var(--primary-color);
   padding: 0 20px;
   position: fixed;
   bottom: 0;
-  left: 0;
+  left: 50%;
+  transform: translate(-50%);
 
   display: grid;
   grid-template-columns: 200px 1fr 200px;
@@ -623,6 +626,7 @@ main {
 }
 
 .song-progress {
+  width: 60%;
   display: flex;
   align-items: center;
   gap: 10px;
@@ -634,7 +638,7 @@ main {
 }
 
 .bar {
-  width: 455px;
+  width: 100%;
   height: 3px;
   background-color: var(--text-color);
   position: relative;
@@ -655,7 +659,7 @@ main {
   border-radius: 50%;
   position: absolute;
   top: -2px;
-  left: 190px;
+  left: 42%;
 }
 
 .dot::before {
