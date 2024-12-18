@@ -563,6 +563,23 @@ main {
 
 /* Other Section Styling End */
 
+/* Now Playing Styling Start */
+
+.now-playing {
+  width: 100%;
+  background-color: var(--primary-color);
+  padding: 0 20px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Now Playing Styling End */
+
 /* Media Queries Start */
 
 @media (min-width: 1300px) {
