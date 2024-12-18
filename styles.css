@@ -578,7 +578,7 @@ main {
   width: 100%;
   max-width: 1300px;
   height: 90px;
-  background-color: var(--primary-color);
+  background-color: rgba(18, 18, 18, 0.8);
   padding: 0 20px;
   position: fixed;
   bottom: 0;
